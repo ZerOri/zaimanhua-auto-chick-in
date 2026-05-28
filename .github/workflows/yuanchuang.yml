@@ -2,8 +2,8 @@ name: Yuanchuang Activity
 
 on:
   schedule:
-    # 北京时间 11:30 (UTC 3:30)，每天一次
-    - cron: '30 3 * * *'
+    # 北京时间 10:30 (UTC 2:30)，每天一次
+    - cron: '30 2 * * *'
   workflow_dispatch:
 
 jobs:
